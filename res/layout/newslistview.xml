@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+   
+
+    <TextView 
+        android:id="@+id/tv_items_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/homepage_lv_text_textsize"/>
+    
+    <TextView 
+        android:id="@+id/tv_items_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_items_text"
+        android:textSize="@dimen/homepage_lv_date_textsize"/>
+
+</RelativeLayout>

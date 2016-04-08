@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">工大新闻</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+   
+    <string name="homepage_title">合工大•新闻中心</string>
+    <string name="homepage_main_news">要闻</string>
+    <string name="homepage_inform">通知</string>
+    <string name="homepage_purchase">采购</string>
+    <string name="homepage_chair">讲座</string>
+    <string name="homepage_media">媒体</string>
+    <string name="homepage_all_news">综合</string>
+    <string name="homepage_figure">人物</string>
+    <string name="homepage_schoolfellow">校友</string>
+    
+    <string name="app_list_header_refresh_last_update">app_list_header_refresh_last_update</string>
+    
+</resources>

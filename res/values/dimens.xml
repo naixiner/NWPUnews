@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 新闻首页 -->
+    <dimen name="homepage_title_bg_height">80px</dimen>
+    <dimen name="homepage_title_textsize">35px</dimen>
+    <dimen name="homepage_title_text_height">70px</dimen>
+    <dimen name="homepage_title_text_width">300px</dimen>
+    
+    <dimen name="homepage_plate_height">70px</dimen>
+    <dimen name="homepage_plate_textsize">40px</dimen>
+    <dimen name="homepage_plate_marginleft">10px</dimen>
+    
+    <dimen name="homepage_item_text_width">100px</dimen>
+    <dimen name="homepage_item_text_height">60px</dimen>
+    
+    <dimen name="homepage_lv_text_textsize">30px</dimen>
+    <dimen name="homepage_lv_date_textsize">20px</dimen>
+   
+    
+    <!-- 单个新闻内容 -->
+    <dimen name="item_tv_text_textsize">30px</dimen>
+    <dimen name="item_tv_title_textsize">30px</dimen>
+    
+    <!-- ListView -->
+    <dimen name="head_rl_height">30px</dimen>
+    <dimen name="head_pb">50px</dimen>
+</resources>

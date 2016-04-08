@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_head"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/head_rl_height" >
+    
+    <LinearLayout
+        android:id="@+id/ll_head_text" 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        
+        <TextView 
+            android:id="@+id/tv_head_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+        
+          <TextView
+              android:id="@+id/tv_head_time"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"  />
+          
+    </LinearLayout>
+    
+    <FrameLayout 
+         android:id="@+id/fl_head_pic"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_toLeftOf="@id/ll_head_text">
+        
+        <ImageView 
+            android:id="@+id/iv_head_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/arrow"/>
+        
+        <ProgressBar
+            android:id="@+id/pb_head_pic"
+            android:layout_width="@dimen/head_pb"
+            android:layout_height="@dimen/head_pb"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+        
+    </FrameLayout>
+
+</RelativeLayout>

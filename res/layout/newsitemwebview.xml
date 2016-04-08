@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+        <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/homepage_plate_height"
+        android:background="@drawable/plate_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:singleLine="true" >
+         <ImageView 
+	        android:id="@+id/iv_item_back"
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true"
+		    android:background="@drawable/item_back" />
+	   <TextView 
+	        android:id="@+id/tv_wv_item_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/iv_item_back"
+	        android:layout_centerHorizontal="true"
+	        android:textColor="@color/blue"
+	        android:textSize="@dimen/item_tv_title_textsize"/>
+            
+    </LinearLayout>
+
+<WebView
+    android:id="@+id/wb_news_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/linearLayout1" />
+
+</RelativeLayout>

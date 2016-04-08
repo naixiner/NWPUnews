@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+    
+    <RelativeLayout 
+        android:id="@+id/rl_main_view"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	    
+	    <RelativeLayout
+	        android:id="@+id/rl_homepage_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/homepage_title_bg_height"
+	        android:background="@drawable/title_background">
+	        
+		    <ImageView 
+		        android:id="@+id/iv_homepage_title"
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/homepage_title_text_height"
+		        android:layout_centerHorizontal="true"
+		        android:layout_centerVertical="true"
+		        android:background="@drawable/homepage_title"/>
+	     </RelativeLayout>
+	     
+	     <HorizontalScrollView
+	                android:id="@+id/plate_horizontal_scrollview"
+	                android:layout_below="@id/rl_homepage_title"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:scrollbars="none" >
+		    
+	    <LinearLayout 
+	        android:id="@+id/ll_homepage_plate"
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/homepage_plate_height"
+	        android:orientation="horizontal"
+	        android:singleLine="true"
+	        android:gravity="center_vertical"
+	        android:background="@drawable/plate_bg">
+		    
+	        <ImageView
+	            android:id="@+id/iv_main_news"
+	            android:layout_width="@dimen/homepage_item_text_width"
+	            android:layout_height="@dimen/homepage_item_text_height"
+	            android:layout_marginLeft="@dimen/homepage_plate_marginleft"/>"
+		    
+	         <ImageView
+	            android:id="@+id/iv_inform"
+	            android:layout_width="@dimen/homepage_item_text_width"
+	            android:layout_height="@dimen/homepage_item_text_height"
+	            android:layout_marginLeft="@dimen/homepage_plate_marginleft"/>
+	         
+	         <ImageView
+	            android:id="@+id/iv_purchase"
+	            android:layout_width="@dimen/homepage_item_text_width"
+	            android:layout_height="@dimen/homepage_item_text_height"
+	            android:layout_marginLeft="@dimen/homepage_plate_marginleft"/>
+	          
+	         <ImageView
+	            android:id="@+id/iv_chair"
+	            android:layout_width="@dimen/homepage_item_text_width"
+	            android:layout_height="@dimen/homepage_item_text_height"
+	            android:layout_marginLeft="@dimen/homepage_plate_marginleft"/>
+	                                
+	          <ImageView
+	            android:id="@+id/iv_media"
+	            android:layout_width="@dimen/homepage_item_text_width"
+	            android:layout_height="@dimen/homepage_item_text_height"
+	            android:layout_marginLeft="@dimen/homepage_plate_marginleft"/>
+	          
+	          <ImageView
+	            android:id="@+id/iv_all_news"
+	            android:layout_width="@dimen/homepage_item_text_width"
+	            android:layout_height="@dimen/homepage_item_text_height"
+	            android:layout_marginLeft="@dimen/homepage_plate_marginleft"/>
+	          
+
+	       </LinearLayout>
+	    </HorizontalScrollView>
+	  
+	   <com.example.news.MainListView
+	            android:id="@+id/lv_homepage_text" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:layout_below="@id/plate_horizontal_scrollview">
+	      </com.example.news.MainListView>
+     </RelativeLayout>
+</RelativeLayout>
